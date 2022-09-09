@@ -108,8 +108,8 @@
         <!-- curses start -->
        <div class="container overflow-hidden">
         <div class="row gy-5">
-          <div class="col-md-6">
-            <div class="card flex-row" style="width: auto; margin-right: 0px;">
+          <div class="col-md-12 col-lg-6">
+            <div class="card flex-sm-row" style="width: auto; margin-right: 0px;">
                 <img src="images/course/course-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h3>Fundamental Of UI/UX Design</h3>
@@ -118,8 +118,8 @@
                 </div>
               </div>
           </div>
-          <div class="col-md-6">
-            <div class="card flex-row" style="width: auto; margin-right: 0px;">
+          <div class="col-md-12 col-lg-6">
+            <div class="card flex-sm-row" style="width: auto; margin-right: 0px;">
                 <img src="images/course/course-2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h3>Javascript Basic to advanced</h3>
@@ -128,8 +128,8 @@
                 </div>
               </div>
           </div>
-          <div class="col-md-6">
-            <div class="card flex-row" style="width: auto; margin-right: 0px;">
+          <div class="col-md-12 col-lg-6">
+            <div class="card flex-sm-row" style="width: auto; margin-right: 0px;">
                 <img src="images/course/course-3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h3>Fullstack Web Development</h3>
@@ -138,8 +138,8 @@
                 </div>
               </div>
           </div>
-          <div class="col-md-6">
-            <div class="card flex-row" style="width: auto; margin-right: 0px;">
+          <div class="col-md-12 col-lg-6">
+            <div class="card flex-sm-row" style="width: auto; margin-right: 0px;">
                 <img src="images/course/course-4.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h3>Photography Basic Rules</h3>
@@ -149,8 +149,8 @@
                 </div>
               </div>
           </div>
-          <div class="col-md-6">
-            <div class="card flex-row" style="width: auto; margin-right: 0px;">
+          <div class="col-md-12 col-lg-6">
+            <div class="card flex-sm-row" style="width: auto; margin-right: 0px;">
                 <img src="images/course/course-5.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h3> Marketing</h3>
@@ -159,8 +159,8 @@
                 </div>
               </div>
           </div>
-          <div class="col-md-6">
-            <div class="card flex-row" style="width: auto; margin-right: 0px;">
+          <div class="col-md-12 col-lg-6">
+            <div class="card flex-sm-row" style="width: auto; margin-right: 0px;">
                 <img src="images/course/course-6.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h3>Motion Graphics</h3>
@@ -186,14 +186,33 @@
       ------------------------------->
       <section class="d-flex justify-content-center">
         <div class="row container-md ">
-          <div class="col-sm-12 bg-primary d-flex justify-content-around align-items-center p-5 border border-0 shadow-lg p-3 mb-5 bg-body rounded flex-sm-column flex-md-row">
+          <div class="col-sm-12 bg-primary d-flex justify-content-around align-items-center p-5 border border-0 shadow-lg p-3 mb-5 bg-body rounded flex-column flex-md-row">
             <div class=" w-50 ">
               <h2>Ready to Join?</h2>
               <p>This couese is an excilent course. Its change your future.
                 Its make an opurtunaty to prove your self. So dont west time.
               </p>
             </div>
-            <button style="height: 40px;" type="button" class="btn btn-outline-primary ">Enrol Now</button>
+            <button style="height: 40px;" type="button" class="btn btn-outline-primary " data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enrol Now</button>
+
+            <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                    
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body fw-bolder">
+                      Thanks for Enrolment.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Go For Payment</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- modal end  -->
 
 
           </div>
